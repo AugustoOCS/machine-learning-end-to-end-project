@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Dados
+data/
+*.csv
+*.xlsx
+
+# Modelos treinados
+*.pkl
+*.joblib
+
+# Ambiente
+.env
+.env.*
+
+# Logs
+logs/
+*.log
